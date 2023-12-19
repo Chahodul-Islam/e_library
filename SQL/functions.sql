@@ -68,7 +68,7 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 
---get_user
+--get_user(S)
 
 DROP FUNCTION IF EXISTS get_user;
 CREATE OR REPLACE FUNCTION get_user(_id INT)

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Menu</title>
+    <style>
+        body {
+            font-family: 'Verdana', sans-serif;
+            margin: 20px;
+            background-color: black; /* Changed background color to black */
+        }
+        h1 {
+            text-align: center;
+            color: #4CAF50;
+        }
+        .api-menu {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: Aqua;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+            margin-left: 500px;
+            margin-right: 500px;
+        }
+        .api-endpoint {
+            font-weight: bold;
+            padding: 10px;
+            font-size: 16px;
+            margin-bottom: 10px;
+            background-color: Aqua; /* Default background color */
+            border-radius: 4px;
+            width: 100%;
+            text-align: center;
+        }
+        .api-endpoint a {
+            text-decoration: none;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h1>e-Library API Menu</h1>
+    <div class="api-menu">
+
+        <div class="api-endpoint" style="background-color:gray;">
+            <a href="/categories/">Categories</a>
+        </div>
+
+        <div class="api-endpoint" style="background-color:gray;">
+            <a href="/books/">Books</a>
+        </div>
+
+        <div class="api-endpoint" style="background-color:gray;">
+            <a href="/publishers/">Publishers</a>
+        </div>
+
+        <div class="api-endpoint" style="background-color: gray;">
+            <a href="/users/">Users</a>
+        </div>
+
+        <div class="api-endpoint" style="background-color: gray;">
+            <a href="/reviews/">Reviews</a>
+        </div>
+    </div>
+</body>
+</html>

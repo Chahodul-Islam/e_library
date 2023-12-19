@@ -13,7 +13,7 @@ CREATE TABLE if not exists publishers(
 );
 CREATE TABLE if not exists categories(
   id serial PRIMARY KEY,
-  genre_name VARCHAR(255) NOT NULL
+  genre_name VARCHAR(255) NOT NULL UNIQUE
 );
 
 CREATE TABLE if not exists books(
